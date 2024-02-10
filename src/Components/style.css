@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Set background color for the body */
+body {
+    background-color: #FCEEC8;
+}
+
+/* Set up container styles */
+.container {
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+}
+
+/* Set up styles for left and right content sections */
+.left-content,
+.right-content {
+    flex-basis: 50%;
+}
+
+/* Additional styles for left content */
+.left-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Styles for the card */
+.card {
+    width: 300px;
+    background-color: pink;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 1.5rem;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    user-select: none;
+}
+
+/* Styles for right content */
+.right-content {
+    width: 50%;
+    text-align: center;
+    color: black;
+    position: fixed;
+    top: 100px;
+    right: 10px;
+}
+
+/* Styles for right content images */
+.right-content img {
+    margin: 1.5rem;
+    height: 160px;
+}
+
+/* Styles for right content headings */
+.right-content h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Styles for abilities */
+.abilities {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+/* Styles for ability groups */
+.abilities .group {
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    font-size: 12px;
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+
+/* Styles for base stats */
+.base-stat {
+    margin-top: 2rem;
+}
+
+/* Styles for button group */
+.btn-group {
+    display: flex;
+    margin-left: 500px;
+}
+
+/* Styles for buttons within button group */
+.btn-group button {
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 50px;
+    padding: 0.3rem 0;
+    margin: 1rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #b74555;
+    border-radius: 8px;
+}
+
+.infoCard {
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 1.5rem;
+    background-color: pink;
+    width: 500px;
+    margin-left: 300px;
+}
